@@ -10,7 +10,7 @@ $(function () {
 
 // Broken Images
 $("img").on("error", function () {
-  $(this).attr("src", "/assets/imgs/error.jpg");
+  $(this).attr("src", "./assets/imgs/error.jpg");
 });
 
 // Carousel
