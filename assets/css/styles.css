@@ -69,7 +69,7 @@ a:hover {
 
 .navbar.scrolled {
   background: rgba(240, 157, 81, 0.3);
-  transition: background 1800ms;
+  transition: 1800ms;
 }
 
 .dropdown-menu {
@@ -187,7 +187,7 @@ a:hover {
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(108vh - 60px);
-  background: url("./assets/imgs/hero-bc.jpg") center/cover no-repeat;
+  background: url("/assets/imgs/hero-bc.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
